@@ -1,0 +1,178 @@
+
+*{
+    margin:30 30 30 30;
+    padding:10 10 10 10;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(135deg,#0d6efd,#003366);
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+header h1{
+    font-size:2rem;
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+/* Navigation */
+
+nav{
+    background:#001f3f;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* General Sections */
+
+section{
+    padding:50px 10%;
+}
+
+section h2{
+    color:#0d6efd;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+section p{
+    text-align:justify;
+}
+
+/* Information Section */
+
+.info{
+    background:white;
+}
+
+/* Cards */
+
+.cards-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+/* Scam Section */
+
+.scams{
+    background:#eef5ff;
+}
+
+.scams ul{
+    max-width:700px;
+    margin:auto;
+}
+
+.scams li{
+    margin-bottom:10px;
+}
+
+/* Warning Box */
+
+.warning{
+    background:#fff3cd;
+    border-left:6px solid #ff9800;
+    border-right:6px solid #ff9800;
+    padding:25px;
+    margin:30px auto;
+    max-width:800px;
+    border-radius:8px;
+}
+
+.warning h3{
+    color:#d97706;
+    margin-bottom:10px;
+}
+
+/* Checklist */
+
+.checklist{
+    background:white;
+}
+
+.checklist ul{
+    max-width:700px;
+    margin:auto;
+}
+
+.checklist li{
+    margin-bottom:12px;
+    font-size:18px;
+}
+
+/* Footer */
+
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .cards-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
